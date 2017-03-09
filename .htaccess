@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteCond $1 !^(index\.php|application|static|test\.php|favicon\.ico|captcha)
+RewriteRule ^(.*)$ /Shishi/index.php/$1 [L]
